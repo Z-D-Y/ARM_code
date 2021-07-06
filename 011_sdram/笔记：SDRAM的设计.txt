@@ -1,0 +1,14 @@
+//SDRAM的相关寄存器设置
+BWSCON = 0x22000000;
+
+BANKCON6 = 0x18001;
+BANKCON7 = 0x18001;
+
+REFRESH = 0x8404f5;
+
+BANKSIZE = 0xb1;
+
+MRSRB6 = 0x20;
+MRSRB7 = 0x20;
+
+以此设置以上设置寄存器的值
